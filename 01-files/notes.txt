@@ -1,0 +1,2 @@
+Today I started Linux for Devops Practise. 
+I practised mkdir , cd, touch , cat and ls
