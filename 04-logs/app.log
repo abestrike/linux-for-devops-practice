@@ -1,0 +1,14 @@
+INFO Application started
+INFO Connected to database
+WARNING Disk usage is high
+ERROR Failed to send email
+INFO Retrying operation
+ERROR Connection timed out
+INFO New user logged in
+ERROR Payment failed
+INFO New user logged in
+ERROR Payment failed
+INFO Backup started
+ERROR Backup permission denied
+INFO Backup retry started
+ERROR Backup disk full
