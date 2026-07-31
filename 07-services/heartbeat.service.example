@@ -1,0 +1,9 @@
+[Unit]
+Description=My Heartbeat Practice Service
+
+[Service]
+ExecStart=/home/abel/projects/linux-for-devops-practice/07-services/heartbeat.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
