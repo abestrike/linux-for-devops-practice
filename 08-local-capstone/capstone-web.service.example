@@ -1,0 +1,10 @@
+[Unit]
+Description=Local Capstone Web Server
+
+[Service]
+WorkingDirectory=/home/abel/projects/linux-for-devops-practice/08-local-capstone
+ExecStart=/usr/bin/python3 -m http.server 9010
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
