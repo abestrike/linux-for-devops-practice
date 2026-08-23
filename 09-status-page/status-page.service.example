@@ -3,7 +3,7 @@ Description=Linux Status Page Service
 
 [Service]
 WorkingDirectory=/home/abel/projects/linux-for-devops-practice/09-status-page
-ExecStart=/bin/bash -lc './update-status.sh && exec python3 -m http.server 9020'
+ExecStart=/bin/bash -lc './update-status.sh && exec python3 -m http.server 9030'
 Restart=on-failure
 
 [Install]
