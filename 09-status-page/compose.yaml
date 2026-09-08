@@ -1,0 +1,7 @@
+services:
+  status-page:
+    build: .
+    image: status-page-image
+    container_name: my-status-page
+    ports:
+      - "9050:80"
